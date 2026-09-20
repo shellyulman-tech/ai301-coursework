@@ -33,6 +33,7 @@ will fail eval issues designed around that family.
 ## Checks
 
 | Check | Evidence | Pass condition | Weight |
+|---|---|---|---|
 |Maintainer activity|Recent default-branch commits, commit authors, and maintainer first-response sample from Repo facts.|Pass if there is evidence of human maintainer activity: at least one recent default-branch commit by a human OR at least one maintainer first response to an issue in the response sample. Fail if the repository shows no human maintainer activity in the available evidence.|required|
 |Repository activity|Latest release, last push, archived status, and adoption signals in Repo facts.|Pass if the repository is not archived and there is evidence of recent activity, shown by a recent push or release. Fail if the repository is archived or there is no evidence of recent repository activity.|required|
 |Bounded contribution scope|Issue body and comment thread. Look for umbrella/tracking issues, unresolved design debates, explicit references to major core-internal changes, and pure usage/support questions.|Pass if the issue describes a contribution that is one bounded piece of work and is not a pure usage question, umbrella/tracking issue, unresolved design decision, or explicitly stated core-internal redesign. Fail if any of those disqualifying conditions is present.|required|
