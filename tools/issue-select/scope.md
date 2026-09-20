@@ -36,4 +36,5 @@ you want to avoid. The skill uses this only to RANK the issues your
 rubric accepts, never to change a verdict: fit cannot rescue an issue
 your rubric rejects, and cannot sink one it accepts. -->
 
-(Write a few sentences here.)
+I am a computer science graduate student with experience in Python, JavaScript, HTML/CSS, SQL, and basic cybersecurity and networking. I have worked on web development, software projects, databases, and network-security projects. I am comfortable working from an existing codebase and learning unfamiliar code, but I am still building experience contributing to larger open-source projects. Issues involving a bounded bug fix, documentation, testing, web development, Python, JavaScript, databases, or security-related functionality are generally a good fit. I should avoid issues that require extensive changes to unfamiliar core internals or large architectural redesigns.
+
